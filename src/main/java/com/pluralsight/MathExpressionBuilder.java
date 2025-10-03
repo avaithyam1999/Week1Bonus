@@ -16,12 +16,12 @@ public class MathExpressionBuilder {
         System.out.printf("""
                 === Mathematical Expression Builder ===
                 Original expression: %d + %d * %d - %f
-                Direct Calculation: %f
+                Direct Calculation: %.2f
                 
                 With parentheses: (%d + %d) * %d - %f
-                PEMDAS Calculation: %f
+                PEMDAS Calculation: %.2f
                 
-                Difference: %d
+                Difference: %.2f
                 
                 """,x,y,z,w,simpleCalc,x,y,z,w,pemdasCalc,difference);
     }
